@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>FormEnviaEmail</title>
+</head>
+<body>
+    <div id="geral">
+        <form action="https://formsubmit.co/hqgreenarrow@gmail.com"method="POST" class="form" >
+            <p>Enviar Email</p> 
+            <hr>
+            <p><label>Digite seu nome: </label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome aqui" required/>
+
+            <p><label>Digite seu Email: </label>
+            <input type="text" id="email" name="email" placeholder="Seu email aqui" required/>
+
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/thanks.html" />
+            
+            <p> <button type="submit">Enviar</button>
+        </form>
+    </div>
+</body>
+</html>
